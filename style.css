@@ -1,0 +1,59 @@
+/* style.css for digital clock */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+body {
+    background: black;
+    color: #ffffff;
+    margin: 0;
+}
+
+button {
+    background: black;
+    color: white;
+    font-size: 2rem;
+    padding: 5px 15px 5px 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background: #333333;
+}
+
+.container {
+    padding: 50px;
+    padding-top: 20px;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1548335599-8ed902028f3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1146&q=80');
+    background-size: cover;
+}
+
+.clock {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 6rem;
+    box-shadow: 0 0 10px rgb(202, 200, 200);
+    background: rgba(0, 0, 0, .8);
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    color: green;
+    clear: both;
+    -webkit-box-reflect: below 14px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.3)));
+}
+
+#background {
+    clear: both;
+}
+
+#text {
+    width: 50%;
+    float: left;
+}
+
+#clock {
+    width: 50%;
+    float: right;
+}
